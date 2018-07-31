@@ -8,7 +8,7 @@ resource "aws_instance" "masternode" {
     instance_type = "t2.micro"
     
     tags {
-      Name = "test" 
+      Name = "example" 
 }
 
 
